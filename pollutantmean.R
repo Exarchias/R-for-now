@@ -1,6 +1,5 @@
 pollutantmean <- function(directory, pollutant, id = 1:332) {
   ## 'directory' is a character vector of length 1 indicating
-  ## i need to make the id an array.
   ## the location of the CSV files
   counteraki <- numeric()
   for (i in id) {
