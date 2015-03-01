@@ -6,7 +6,7 @@
 best <- function(state, outcome) {
   
   ## Read outcome data
-  data <- read.csv("./outcome-of-care-measures.csv", colClasses = "character", na.strings="Not Available")
+  data <- read.csv("./rprog-data-ProgAssignment3-data/outcome-of-care-measures.csv", colClasses = "character", na.strings="Not Available")
   
   ## Check that state and outcome are valid
   validOutcome <- c("heart attack","heart failure","pneumonia")
